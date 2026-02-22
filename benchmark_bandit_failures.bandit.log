@@ -1,0 +1,426 @@
+Case: python-RCE-005
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-006
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-007
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: blacklist | hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-008
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-009
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-010
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-011
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-014
+Status: ❌ WRONG TYPE
+Exp: RCE | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-RCE-001-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: RCE
+------------------------------
+Case: python-RCE-003-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: RCE
+------------------------------
+Case: python-RCE-010-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: RCE
+------------------------------
+Case: python-RCE-011-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: RCE
+------------------------------
+Case: python-RCE-015-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: RCE
+------------------------------
+Case: python-PI-001
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-002
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-003
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-004
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-005
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-006
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-007
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: CPU Exhaustion | hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-008
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-009
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-010
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-011
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-012
+Status: ❌ WRONG TYPE
+Exp: Direct Prompt Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-PI-013
+Status: ❌ FN (Missed)
+Exp: Direct Prompt Injection | Got: None
+------------------------------
+Case: python-PI-014
+Status: ❌ FN (Missed)
+Exp: Direct Prompt Injection | Got: None
+------------------------------
+Case: python-PI-015
+Status: ❌ FN (Missed)
+Exp: Direct Prompt Injection | Got: None
+------------------------------
+Case: python-PI-010-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-FS-001
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-002
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-003
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-004
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-005
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-006
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-008
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-009
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-010
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-011
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-012
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-014
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces | set_bad_file_permissions
+------------------------------
+Case: python-FS-015
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-FS-007-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-SQLI-012
+Status: ❌ WRONG TYPE
+Exp: SQL Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-SQLI-014
+Status: ❌ WRONG TYPE
+Exp: SQL Injection | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-SQLI-013-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: SQL Injection
+------------------------------
+Case: python-DOS-001
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-002
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-003
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-004
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-005
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-006
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-007
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-008
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-009
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: File Read | hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-010
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: File Read | hardcoded_bind_all_interfaces
+------------------------------
+Case: python-DOS-011
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: None
+------------------------------
+Case: python-DOS-012
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: None
+------------------------------
+Case: python-DOS-013
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: None
+------------------------------
+Case: python-DOS-014
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: None
+------------------------------
+Case: python-DOS-015
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: None
+------------------------------
+Case: python-DOS-009-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-DOS-010-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read | try_except_pass
+------------------------------
+
+🚀 开始执行 Bandit 静态扫描评估...
+[1/150] 扫描: python-RCE-001... ✅ PASS (1.47s)
+[2/150] 扫描: python-RCE-002... ✅ PASS (0.76s)
+[3/150] 扫描: python-RCE-003... ✅ PASS (0.74s)
+[4/150] 扫描: python-RCE-004... ✅ PASS (0.76s)
+[5/150] 扫描: python-RCE-005... ❌ WRONG TYPE (0.75s)
+[6/150] 扫描: python-RCE-006... ❌ WRONG TYPE (0.77s)
+[7/150] 扫描: python-RCE-007... ❌ WRONG TYPE (0.81s)
+[8/150] 扫描: python-RCE-008... ❌ WRONG TYPE (0.83s)
+[9/150] 扫描: python-RCE-009... ❌ WRONG TYPE (0.87s)
+[10/150] 扫描: python-RCE-010... ❌ WRONG TYPE (0.80s)
+[11/150] 扫描: python-RCE-011... ❌ WRONG TYPE (0.76s)
+[12/150] 扫描: python-RCE-012... ✅ PASS (0.77s)
+[13/150] 扫描: python-RCE-013... ✅ PASS (0.75s)
+[14/150] 扫描: python-RCE-014... ❌ WRONG TYPE (0.74s)
+[15/150] 扫描: python-RCE-015... ✅ PASS (0.75s)
+[16/150] 扫描: python-RCE-001-SAFE... ❌ FP (False Alarm) (0.74s)
+[17/150] 扫描: python-RCE-002-SAFE... ✅ PASS (0.75s)
+[18/150] 扫描: python-RCE-003-SAFE... ❌ FP (False Alarm) (0.73s)
+[19/150] 扫描: python-RCE-004-SAFE... ✅ PASS (0.76s)
+[20/150] 扫描: python-RCE-005-SAFE... ✅ PASS (0.74s)
+[21/150] 扫描: python-RCE-006-SAFE... ✅ PASS (0.73s)
+[22/150] 扫描: python-RCE-007-SAFE... ✅ PASS (0.74s)
+[23/150] 扫描: python-RCE-008-SAFE... ✅ PASS (0.74s)
+[24/150] 扫描: python-RCE-009-SAFE... ✅ PASS (0.74s)
+[25/150] 扫描: python-RCE-010-SAFE... ❌ FP (False Alarm) (0.76s)
+[26/150] 扫描: python-RCE-011-SAFE... ❌ FP (False Alarm) (0.74s)
+[27/150] 扫描: python-RCE-012-SAFE... ✅ PASS (0.73s)
+[28/150] 扫描: python-RCE-013-SAFE... ✅ PASS (0.75s)
+[29/150] 扫描: python-RCE-014-SAFE... ✅ PASS (0.76s)
+[30/150] 扫描: python-RCE-015-SAFE... ❌ FP (False Alarm) (0.77s)
+[31/150] 扫描: python-PI-001... ❌ WRONG TYPE (0.75s)
+[32/150] 扫描: python-PI-002... ❌ WRONG TYPE (0.74s)
+[33/150] 扫描: python-PI-003... ❌ WRONG TYPE (0.78s)
+[34/150] 扫描: python-PI-004... ❌ WRONG TYPE (0.73s)
+[35/150] 扫描: python-PI-005... ❌ WRONG TYPE (0.75s)
+[36/150] 扫描: python-PI-006... ❌ WRONG TYPE (0.75s)
+[37/150] 扫描: python-PI-007... ❌ WRONG TYPE (0.76s)
+[38/150] 扫描: python-PI-008... ❌ WRONG TYPE (0.74s)
+[39/150] 扫描: python-PI-009... ❌ WRONG TYPE (0.76s)
+[40/150] 扫描: python-PI-010... ❌ WRONG TYPE (0.74s)
+[41/150] 扫描: python-PI-011... ❌ WRONG TYPE (0.81s)
+[42/150] 扫描: python-PI-012... ❌ WRONG TYPE (0.73s)
+[43/150] 扫描: python-PI-013... ❌ FN (Missed) (0.74s)
+[44/150] 扫描: python-PI-014... ❌ FN (Missed) (0.73s)
+[45/150] 扫描: python-PI-015... ❌ FN (Missed) (0.73s)
+[46/150] 扫描: python-PI-001-SAFE... ✅ PASS (0.74s)
+[47/150] 扫描: python-PI-002-SAFE... ✅ PASS (0.74s)
+[48/150] 扫描: python-PI-003-SAFE... ✅ PASS (0.75s)
+[49/150] 扫描: python-PI-004-SAFE... ✅ PASS (0.75s)
+[50/150] 扫描: python-PI-005-SAFE... ✅ PASS (0.73s)
+[51/150] 扫描: python-PI-006-SAFE... ✅ PASS (0.75s)
+[52/150] 扫描: python-PI-007-SAFE... ✅ PASS (0.83s)
+[53/150] 扫描: python-PI-008-SAFE... ✅ PASS (0.72s)
+[54/150] 扫描: python-PI-009-SAFE... ✅ PASS (0.72s)
+[55/150] 扫描: python-PI-010-SAFE... ❌ FP (False Alarm) (0.73s)
+[56/150] 扫描: python-PI-011-SAFE... ✅ PASS (0.75s)
+[57/150] 扫描: python-PI-012-SAFE... ✅ PASS (0.72s)
+[58/150] 扫描: python-PI-013-SAFE... ✅ PASS (0.74s)
+[59/150] 扫描: python-PI-014-SAFE... ✅ PASS (0.73s)
+[60/150] 扫描: python-PI-015-SAFE... ✅ PASS (0.75s)
+[61/150] 扫描: python-FS-001... ❌ WRONG TYPE (0.73s)
+[62/150] 扫描: python-FS-002... ❌ WRONG TYPE (0.75s)
+[63/150] 扫描: python-FS-003... ❌ WRONG TYPE (0.74s)
+[64/150] 扫描: python-FS-004... ❌ WRONG TYPE (0.74s)
+[65/150] 扫描: python-FS-005... ❌ WRONG TYPE (0.73s)
+[66/150] 扫描: python-FS-006... ❌ WRONG TYPE (0.77s)
+[67/150] 扫描: python-FS-007... ✅ PASS (0.78s)
+[68/150] 扫描: python-FS-008... ❌ WRONG TYPE (0.74s)
+[69/150] 扫描: python-FS-009... ❌ WRONG TYPE (0.74s)
+[70/150] 扫描: python-FS-010... ❌ WRONG TYPE (0.75s)
+[71/150] 扫描: python-FS-011... ❌ WRONG TYPE (0.75s)
+[72/150] 扫描: python-FS-012... ❌ WRONG TYPE (0.75s)
+[73/150] 扫描: python-FS-013... ✅ PASS (0.74s)
+[74/150] 扫描: python-FS-014... ❌ WRONG TYPE (0.77s)
+[75/150] 扫描: python-FS-015... ❌ WRONG TYPE (0.76s)
+[76/150] 扫描: python-FS-001-SAFE... ✅ PASS (0.74s)
+[77/150] 扫描: python-FS-002-SAFE... ✅ PASS (0.77s)
+[78/150] 扫描: python-FS-003-SAFE... ✅ PASS (0.73s)
+[79/150] 扫描: python-FS-004-SAFE... ✅ PASS (0.76s)
+[80/150] 扫描: python-FS-005-SAFE... ✅ PASS (0.74s)
+[81/150] 扫描: python-FS-006-SAFE... ✅ PASS (0.75s)
+[82/150] 扫描: python-FS-007-SAFE... ❌ FP (False Alarm) (0.75s)
+[83/150] 扫描: python-FS-008-SAFE... ✅ PASS (0.73s)
+[84/150] 扫描: python-FS-009-SAFE... ✅ PASS (0.74s)
+[85/150] 扫描: python-FS-010-SAFE... ✅ PASS (0.75s)
+[86/150] 扫描: python-FS-011-SAFE... ✅ PASS (0.76s)
+[87/150] 扫描: python-FS-012-SAFE... ✅ PASS (0.73s)
+[88/150] 扫描: python-FS-013-SAFE... ✅ PASS (0.74s)
+[89/150] 扫描: python-FS-014-SAFE... ✅ PASS (0.77s)
+[90/150] 扫描: python-FS-015-SAFE... ✅ PASS (0.73s)
+[91/150] 扫描: python-SQLI-001... ✅ PASS (0.73s)
+[92/150] 扫描: python-SQLI-002... ✅ PASS (0.75s)
+[93/150] 扫描: python-SQLI-003... ✅ PASS (0.73s)
+[94/150] 扫描: python-SQLI-004... ✅ PASS (0.74s)
+[95/150] 扫描: python-SQLI-005... ✅ PASS (0.74s)
+[96/150] 扫描: python-SQLI-006... ✅ PASS (0.74s)
+[97/150] 扫描: python-SQLI-007... ✅ PASS (0.74s)
+[98/150] 扫描: python-SQLI-008... ✅ PASS (0.74s)
+[99/150] 扫描: python-SQLI-009... ✅ PASS (0.76s)
+[100/150] 扫描: python-SQLI-010... ✅ PASS (0.76s)
+[101/150] 扫描: python-SQLI-011... ✅ PASS (0.74s)
+[102/150] 扫描: python-SQLI-012... ❌ WRONG TYPE (0.73s)
+[103/150] 扫描: python-SQLI-013... ✅ PASS (0.73s)
+[104/150] 扫描: python-SQLI-014... ❌ WRONG TYPE (0.75s)
+[105/150] 扫描: python-SQLI-015... ✅ PASS (0.76s)
+[106/150] 扫描: python-SQLI-001-SAFE... ✅ PASS (0.77s)
+[107/150] 扫描: python-SQLI-002-SAFE... ✅ PASS (0.75s)
+[108/150] 扫描: python-SQLI-003-SAFE... ✅ PASS (0.75s)
+[109/150] 扫描: python-SQLI-004-SAFE... ✅ PASS (0.75s)
+[110/150] 扫描: python-SQLI-005-SAFE... ✅ PASS (0.76s)
+[111/150] 扫描: python-SQLI-006-SAFE... ✅ PASS (0.75s)
+[112/150] 扫描: python-SQLI-007-SAFE... ✅ PASS (0.77s)
+[113/150] 扫描: python-SQLI-008-SAFE... ✅ PASS (0.75s)
+[114/150] 扫描: python-SQLI-009-SAFE... ✅ PASS (0.75s)
+[115/150] 扫描: python-SQLI-010-SAFE... ✅ PASS (0.75s)
+[116/150] 扫描: python-SQLI-011-SAFE... ✅ PASS (0.77s)
+[117/150] 扫描: python-SQLI-012-SAFE... ✅ PASS (0.75s)
+[118/150] 扫描: python-SQLI-013-SAFE... ❌ FP (False Alarm) (0.76s)
+[119/150] 扫描: python-SQLI-014-SAFE... ✅ PASS (0.79s)
+[120/150] 扫描: python-SQLI-015-SAFE... ✅ PASS (0.91s)
+[121/150] 扫描: python-DOS-001... ❌ WRONG TYPE (1.43s)
+[122/150] 扫描: python-DOS-002... ❌ WRONG TYPE (1.37s)
+[123/150] 扫描: python-DOS-003... ❌ WRONG TYPE (1.46s)
+[124/150] 扫描: python-DOS-004... ❌ WRONG TYPE (1.42s)
+[125/150] 扫描: python-DOS-005... ❌ WRONG TYPE (1.58s)
+[126/150] 扫描: python-DOS-006... ❌ WRONG TYPE (1.43s)
+[127/150] 扫描: python-DOS-007... ❌ WRONG TYPE (1.57s)
+[128/150] 扫描: python-DOS-008... ❌ WRONG TYPE (1.48s)
+[129/150] 扫描: python-DOS-009... ❌ WRONG TYPE (1.48s)
+[130/150] 扫描: python-DOS-010... ❌ WRONG TYPE (1.42s)
+[131/150] 扫描: python-DOS-011... ❌ FN (Missed) (1.44s)
+[132/150] 扫描: python-DOS-012... ❌ FN (Missed) (1.40s)
+[133/150] 扫描: python-DOS-013... ❌ FN (Missed) (1.39s)
+[134/150] 扫描: python-DOS-014... ❌ FN (Missed) (1.50s)
+[135/150] 扫描: python-DOS-015... ❌ FN (Missed) (1.35s)
+[136/150] 扫描: python-DOS-001-SAFE... ✅ PASS (1.33s)
+[137/150] 扫描: python-DOS-002-SAFE... ✅ PASS (1.45s)
+[138/150] 扫描: python-DOS-003-SAFE... ✅ PASS (0.80s)
+[139/150] 扫描: python-DOS-004-SAFE... ✅ PASS (0.75s)
+[140/150] 扫描: python-DOS-005-SAFE... ✅ PASS (0.74s)
+[141/150] 扫描: python-DOS-006-SAFE... ✅ PASS (0.73s)
+[142/150] 扫描: python-DOS-007-SAFE... ✅ PASS (0.74s)
+[143/150] 扫描: python-DOS-008-SAFE... ✅ PASS (0.78s)
+[144/150] 扫描: python-DOS-009-SAFE... ❌ FP (False Alarm) (0.72s)
+[145/150] 扫描: python-DOS-010-SAFE... ❌ FP (False Alarm) (0.72s)
+[146/150] 扫描: python-DOS-011-SAFE... ✅ PASS (0.78s)
+[147/150] 扫描: python-DOS-012-SAFE... ✅ PASS (0.75s)
+[148/150] 扫描: python-DOS-013-SAFE... ✅ PASS (0.74s)
+[149/150] 扫描: python-DOS-014-SAFE... ✅ PASS (0.73s)
+[150/150] 扫描: python-DOS-015-SAFE... ✅ PASS (0.73s)
+
+=====================================================================================
+📊 FINAL RESEARCH REPORT (Bandit 评估结果)
+=====================================================================================
+Total Samples Tested : 150
+Total Valid Pairs    : 75
+-------------------------------------------------------------------------------------
+🎯 Global Accuracy  : 58.00%
+🛡️ Global Precision : 68.75%
+🔍 Global Recall    : 29.33%
+⚖️ Global F1-Score  : 41.12%
+🔗 Global PCR       : 22.67% (17/75 pairs fully correct)
+
+=====================================================================================
+Category                  | Precision  | Recall     | F1-Score   | PCR        | Pairs
+-------------------------------------------------------------------------------------
+RCE                       |     58.3% |     46.7% |     51.9% |     26.7% | 15
+Direct Prompt Injection   |      0.0% |      0.0% |      0.0% |      0.0% | 15
+File Read                 |     50.0% |     13.3% |     21.1% |      6.7% | 15
+SQL Injection             |     92.9% |     86.7% |     89.7% |     80.0% | 15
+CPU Exhaustion            |      0.0% |      0.0% |      0.0% |      0.0% | 15
+=====================================================================================

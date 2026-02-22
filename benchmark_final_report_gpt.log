@@ -1,0 +1,278 @@
+Case: python-FS-015-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-PI-007-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: Direct Prompt Injection
+------------------------------
+Case: python-FS-001-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-PI-012-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: Direct Prompt Injection
+------------------------------
+Case: python-FS-002-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-DOS-012
+Status: ❌ WRONG TYPE
+Exp: CPU Exhaustion | Got: Direct Prompt Injection
+------------------------------
+Case: python-RCE-015-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: RCE
+------------------------------
+Case: python-DOS-005-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-FS-007-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-SQLI-008-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-DOS-015
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: 
+------------------------------
+Case: python-FS-008-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-SQLI-012
+Status: ❌ FN (Missed)
+Exp: SQL Injection | Got: 
+------------------------------
+Case: python-RCE-008-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-DOS-008-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-FS-003-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-FS-013
+Status: ❌ FN (Missed)
+Exp: File Read | Got: 
+------------------------------
+Case: python-RCE-002-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: Direct Prompt Injection
+------------------------------
+Case: python-FS-010-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-FS-005
+Status: ❌ WRONG TYPE
+Exp: File Read | Got: RCE
+------------------------------
+Case: python-FS-009-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-RCE-013-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-DOS-013
+Status: ❌ FN (Missed)
+Exp: CPU Exhaustion | Got: 
+------------------------------
+Case: python-RCE-007-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: CPU Exhaustion
+------------------------------
+Case: python-FS-014-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+Case: python-FS-012-SAFE
+Status: ❌ FP (False Alarm)
+Exp: None | Got: File Read
+------------------------------
+
+
+[1/150] python-PI-009-SAFE... ✅ PASS (9.74s)
+[2/150] python-SQLI-007-SAFE... ✅ PASS (8.50s)
+[3/150] python-SQLI-013... ✅ PASS (6.88s)
+[4/150] python-SQLI-007... ✅ PASS (5.53s)
+[5/150] python-DOS-003... ✅ PASS (8.57s)
+[6/150] python-RCE-004... ✅ PASS (10.72s)
+[7/150] python-FS-015-SAFE... ❌ FP (False Alarm) (9.83s)
+[8/150] python-PI-007-SAFE... ❌ FP (False Alarm) (8.93s)
+[9/150] python-FS-001-SAFE... ❌ FP (False Alarm) (9.04s)
+[10/150] python-PI-012-SAFE... ❌ FP (False Alarm) (8.54s)
+[11/150] python-FS-002-SAFE... ❌ FP (False Alarm) (17.47s)
+[12/150] python-FS-007... ✅ PASS (14.15s)
+[13/150] python-PI-002-SAFE... ✅ PASS (6.11s)
+[14/150] python-PI-015... ✅ PASS (5.17s)
+[15/150] python-RCE-003... ✅ PASS (6.33s)
+[16/150] python-DOS-012... ❌ WRONG TYPE (8.34s)
+[17/150] python-RCE-015-SAFE... ❌ FP (False Alarm) (6.93s)
+[18/150] python-FS-004... ✅ PASS (7.70s)
+[19/150] python-RCE-007... ✅ PASS (4.34s)
+[20/150] python-SQLI-006... ✅ PASS (7.00s)
+[21/150] python-FS-010... ✅ PASS (4.55s)
+[22/150] python-DOS-006-SAFE... ✅ PASS (10.77s)
+[23/150] python-DOS-009... ✅ PASS (8.36s)
+[24/150] python-PI-011-SAFE... ✅ PASS (4.14s)
+[25/150] python-SQLI-004... ✅ PASS (4.35s)
+[26/150] python-PI-008-SAFE... ✅ PASS (4.89s)
+[27/150] python-RCE-011... ✅ PASS (6.25s)
+[28/150] python-SQLI-015... ✅ PASS (4.53s)
+[29/150] python-DOS-002-SAFE... ✅ PASS (5.01s)
+[30/150] python-DOS-010-SAFE... ✅ PASS (6.22s)
+[31/150] python-SQLI-003-SAFE... ✅ PASS (7.64s)
+[32/150] python-DOS-004-SAFE... ✅ PASS (14.11s)
+[33/150] python-RCE-004-SAFE... ✅ PASS (5.78s)
+[34/150] python-PI-014... ✅ PASS (4.04s)
+[35/150] python-DOS-005-SAFE... ❌ FP (False Alarm) (19.18s)
+[36/150] python-SQLI-001... ✅ PASS (5.22s)
+[37/150] python-PI-006-SAFE... ✅ PASS (8.44s)
+[38/150] python-DOS-009-SAFE... ✅ PASS (12.15s)
+[39/150] python-DOS-010... ✅ PASS (6.95s)
+[40/150] python-RCE-002... ✅ PASS (4.28s)
+[41/150] python-FS-007-SAFE... ❌ FP (False Alarm) (12.21s)
+[42/150] python-PI-008... ✅ PASS (4.76s)
+[43/150] python-FS-002... ✅ PASS (4.32s)
+[44/150] python-SQLI-008-SAFE... ❌ FP (False Alarm) (9.54s)
+[45/150] python-SQLI-012-SAFE... ✅ PASS (6.33s)
+[46/150] python-DOS-015... ❌ FN (Missed) (5.89s)
+[47/150] python-FS-008-SAFE... ❌ FP (False Alarm) (6.61s)
+[48/150] python-DOS-011-SAFE... ✅ PASS (6.53s)
+[49/150] python-DOS-011... ✅ PASS (7.07s)
+[50/150] python-PI-013... ✅ PASS (3.44s)
+[51/150] python-DOS-015-SAFE... ✅ PASS (11.37s)
+[52/150] python-SQLI-009... ✅ PASS (4.95s)
+[53/150] python-FS-009... ✅ PASS (7.86s)
+[54/150] python-PI-014-SAFE... ✅ PASS (5.07s)
+[55/150] python-SQLI-012... ❌ FN (Missed) (12.77s)
+[56/150] python-DOS-007-SAFE... ✅ PASS (8.56s)
+[57/150] python-SQLI-011-SAFE... ✅ PASS (9.28s)
+[58/150] python-FS-001... ✅ PASS (14.57s)
+[59/150] python-SQLI-013-SAFE... ✅ PASS (7.78s)
+[60/150] python-SQLI-015-SAFE... ✅ PASS (9.78s)
+[61/150] python-DOS-014-SAFE... ✅ PASS (7.98s)
+[62/150] python-PI-012... ✅ PASS (6.48s)
+[63/150] python-RCE-008-SAFE... ❌ FP (False Alarm) (7.94s)
+[64/150] python-DOS-008-SAFE... ❌ FP (False Alarm) (11.75s)
+[65/150] python-DOS-005... ✅ PASS (6.00s)
+[66/150] python-FS-003-SAFE... ❌ FP (False Alarm) (13.69s)
+[67/150] python-SQLI-001-SAFE... ✅ PASS (5.22s)
+[68/150] python-PI-003... ✅ PASS (5.12s)
+[69/150] python-PI-005... ✅ PASS (7.62s)
+[70/150] python-PI-010-SAFE... ✅ PASS (8.17s)
+[71/150] python-FS-004-SAFE... ✅ PASS (17.15s)
+[72/150] python-FS-011-SAFE... ✅ PASS (16.68s)
+[73/150] python-SQLI-003... ✅ PASS (5.97s)
+[74/150] python-PI-009... ✅ PASS (6.20s)
+[75/150] python-FS-013... ❌ FN (Missed) (10.76s)
+[76/150] python-RCE-002-SAFE... ❌ FP (False Alarm) (5.02s)
+[77/150] python-DOS-004... ✅ PASS (6.75s)
+[78/150] python-SQLI-006-SAFE... ✅ PASS (8.26s)
+[79/150] python-SQLI-009-SAFE... ✅ PASS (6.81s)
+[80/150] python-FS-010-SAFE... ❌ FP (False Alarm) (9.45s)
+[81/150] python-DOS-012-SAFE... ✅ PASS (6.68s)
+[82/150] python-DOS-002... ✅ PASS (4.51s)
+[83/150] python-FS-003... ✅ PASS (8.05s)
+[84/150] python-RCE-001-SAFE... ✅ PASS (20.11s)
+[85/150] python-SQLI-005... ✅ PASS (5.24s)
+[86/150] python-PI-010... ✅ PASS (5.70s)
+[87/150] python-RCE-014-SAFE... ✅ PASS (5.63s)
+[88/150] python-RCE-010... ✅ PASS (5.47s)
+[89/150] python-SQLI-004-SAFE... ✅ PASS (7.13s)
+[90/150] python-PI-007... ✅ PASS (7.36s)
+[91/150] python-FS-005... ❌ WRONG TYPE (7.38s)
+[92/150] python-RCE-009-SAFE... ✅ PASS (19.60s)
+[93/150] python-PI-004... ✅ PASS (4.82s)
+[94/150] python-FS-013-SAFE... ✅ PASS (9.02s)
+[95/150] python-FS-011... ✅ PASS (7.26s)
+[96/150] python-PI-011... ✅ PASS (6.26s)
+[97/150] python-DOS-001... ✅ PASS (9.63s)
+[98/150] python-SQLI-014-SAFE... ✅ PASS (6.79s)
+[99/150] python-DOS-003-SAFE... ✅ PASS (6.21s)
+[100/150] python-PI-005-SAFE... ✅ PASS (8.52s)
+[101/150] python-RCE-005-SAFE... ✅ PASS (14.29s)
+[102/150] python-FS-005-SAFE... ✅ PASS (9.68s)
+[103/150] python-DOS-007... ✅ PASS (7.19s)
+[104/150] python-PI-003-SAFE... ✅ PASS (6.78s)
+[105/150] python-RCE-012... ✅ PASS (7.15s)
+[106/150] python-FS-009-SAFE... ❌ FP (False Alarm) (12.02s)
+[107/150] python-RCE-009... ✅ PASS (5.14s)
+[108/150] python-SQLI-014... ✅ PASS (9.45s)
+[109/150] python-SQLI-011... ✅ PASS (5.90s)
+[110/150] python-PI-002... ✅ PASS (6.06s)
+[111/150] python-SQLI-010... ✅ PASS (9.42s)
+[112/150] python-FS-008... ✅ PASS (7.79s)
+[113/150] python-FS-006-SAFE... ✅ PASS (16.62s)
+[114/150] python-RCE-001... ✅ PASS (6.27s)
+[115/150] python-RCE-008... ✅ PASS (6.81s)
+[116/150] python-SQLI-010-SAFE... ✅ PASS (7.22s)
+[117/150] python-RCE-014... ✅ PASS (11.59s)
+[118/150] python-RCE-013... ✅ PASS (4.99s)
+[119/150] python-RCE-003-SAFE... ✅ PASS (12.08s)
+[120/150] python-RCE-005... ✅ PASS (6.67s)
+[121/150] python-SQLI-002-SAFE... ✅ PASS (6.56s)
+[122/150] python-RCE-006... ✅ PASS (6.25s)
+[123/150] python-DOS-013-SAFE... ✅ PASS (6.70s)
+[124/150] python-PI-015-SAFE... ✅ PASS (5.83s)
+[125/150] python-DOS-014... ✅ PASS (7.03s)
+[126/150] python-RCE-006-SAFE... ✅ PASS (12.06s)
+[127/150] python-DOS-006... ✅ PASS (5.63s)
+[128/150] python-RCE-013-SAFE... ❌ FP (False Alarm) (12.86s)
+[129/150] python-DOS-001-SAFE... ✅ PASS (9.17s)
+[130/150] python-FS-014... ✅ PASS (8.13s)
+[131/150] python-RCE-015... ✅ PASS (8.71s)
+[132/150] python-FS-006... ✅ PASS (4.94s)
+[133/150] python-DOS-013... ❌ FN (Missed) (8.33s)
+[134/150] python-RCE-010-SAFE... ✅ PASS (7.80s)
+[135/150] python-PI-006... ✅ PASS (5.31s)
+[136/150] python-PI-013-SAFE... ✅ PASS (9.32s)
+[137/150] python-PI-001... ✅ PASS (7.36s)
+[138/150] python-FS-015... ✅ PASS (7.54s)
+[139/150] python-PI-001-SAFE... ✅ PASS (5.23s)
+[140/150] python-PI-004-SAFE... ✅ PASS (7.77s)
+[141/150] python-RCE-012-SAFE... ✅ PASS (11.00s)
+[142/150] python-RCE-007-SAFE... ❌ FP (False Alarm) (9.10s)
+[143/150] python-RCE-011-SAFE... ✅ PASS (8.21s)
+[144/150] python-SQLI-005-SAFE... ✅ PASS (6.58s)
+[145/150] python-FS-014-SAFE... ❌ FP (False Alarm) (10.47s)
+[146/150] python-DOS-008... ✅ PASS (7.93s)
+[147/150] python-FS-012-SAFE... ❌ FP (False Alarm) (7.21s)
+[148/150] python-SQLI-008... ✅ PASS (7.02s)
+[149/150] python-SQLI-002... ✅ PASS (8.12s)
+[150/150] python-FS-012... ✅ PASS (6.94s)
+
+=====================================================================================
+📊 FINAL RESEARCH REPORT (综合结果)
+=====================================================================================
+Total Samples Tested : 150
+Total Valid Pairs    : 75
+-------------------------------------------------------------------------------------
+🎯 Global Accuracy  : 82.67%
+🛡️ Global Precision : 77.53%
+🔍 Global Recall    : 92.00%
+⚖️ Global F1-Score  : 84.15%
+🔗 Global PCR       : 65.33% (49/75 pairs fully correct)
+
+=====================================================================================
+Category                  | Precision  | Recall     | F1-Score   | PCR        | Pairs
+-------------------------------------------------------------------------------------
+RCE                       |     93.8% |    100.0% |     96.8% |     66.7% | 15
+Direct Prompt Injection   |     83.3% |    100.0% |     90.9% |     86.7% | 15
+File Read                 |     56.5% |     86.7% |     68.4% |     20.0% | 15
+SQL Injection             |    100.0% |     93.3% |     96.6% |     86.7% | 15
+CPU Exhaustion            |     66.7% |     80.0% |     72.7% |     66.7% | 15
+=====================================================================================
