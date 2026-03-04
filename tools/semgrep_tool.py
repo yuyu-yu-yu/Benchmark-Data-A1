@@ -72,4 +72,5 @@ def scan_python_code(source_code: str):
         "raw_semgrep_output": raw_findings
     }
     
+
     return is_vulnerable, report_dict
